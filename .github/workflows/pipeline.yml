@@ -29,7 +29,7 @@ jobs:
         run: python week_2_practice/model_building/prep.py
 
 
-  model-traning:
+  model-training:
     needs: data-prep
     runs-on: ubuntu-latest
     steps:
